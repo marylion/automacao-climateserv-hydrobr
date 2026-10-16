@@ -1,0 +1,39 @@
+[project]
+name = "automataca-analise-pluviometrica"
+version = "1.1.0"
+description = "Pipeline de análise pluviométrica com dados CHIRPS para o Nordeste Paraense."
+readme = "README.md"
+authors = [
+    { name = "Djalma Filho", email = "devdjalma@gmail.com" }
+]
+requires-python = ">=3.15"
+dependencies = [
+    "adjusttext>=1.4.0",
+    "climateserv>=1.0.8",
+    "contextily>=1.7.1",
+    "customtkinter>=6.0.0",
+    "geopandas>=1.2.0",
+    "hydrobr>=0.1.1",
+    "matplotlib>=3.11.2",
+    "openpyxl>=3.1.5",
+    "pandas>=3.0.6",
+    "pillow>=12.3.0",
+    "pytest>=9.1.1",
+    "python-dotenv>=1.2.4",
+    "rasterio>=1.5.2",
+    "rich>=15.0.0",
+    "shapely>=2.2.0",
+    "tzdata>=2026.5",
+]
+
+[project.scripts]
+resumo = "resumo:main"
+
+[build-system]
+requires = ["uv_build>=0.13.1,<0.14.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]
