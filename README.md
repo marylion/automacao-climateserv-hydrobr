@@ -53,7 +53,7 @@
 
 ## 🌎 Visão geral
 
-![Ferramenta em Funcionamento com Dados de Abaetetuba](Dados_Amostra_Abaetetuba.png)
+![Ferramenta em Funcionamento com Dados de Abaetetuba](Dados_Amostra_Abaetetuba_ot.png)
 
 Obter chuva diária para vários pontos de uma região costuma ser um trabalho manual e repetitivo: achar as estações, baixar mapas, recortar, ler o valor em cada ponto, organizar tabelas e plotar gráficos. O **CHIRPS Pipeline** automatiza essa cadeia inteira.
 
